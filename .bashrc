@@ -41,6 +41,7 @@ up(){
   fi
   cd $d
   pwd
+  ls -alh
 }
 
 #updates cd connad to also print working directory and list all contents immediatly after
