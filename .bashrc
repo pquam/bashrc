@@ -52,9 +52,9 @@ up(){
 cd ()
 {
 	if [ -n "$1" ]; then
-		builtin cd "$@" && pwd && ls
+		builtin cd "$@" && pwd && ls -lha
 	else
-		builtin cd ~ && pwd && ls
+		builtin cd ~ && pwd && ls -lha
 	fi
 }
 
