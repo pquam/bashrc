@@ -1,9 +1,6 @@
 #skip customization on non-interactive shells
 [ -z "$PS1" ] && return
 
-#record data and time commands were executed in history
-HISTTIMEFORMAT="%F %T "
-
 alias ll='ls -alh'
 alias la='ls -A'
 alias home='cd ~'
@@ -21,6 +18,9 @@ alias ac='git add *; git commit -m'
 
 #use vim commands to navigate command history
 set -o vi
+
+#record data and time commands were executed in history
+HISTTIMEFORMAT="%F %T "
 
 # Causes bash to append to history instead of overwriting it so if you start a new terminal, you have old session history
 shopt -s histappend
