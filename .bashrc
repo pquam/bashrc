@@ -10,6 +10,8 @@ alias home='cd ~'
 alias root='cd /'
 alias push='pushd'
 alias pushh='pushd ~'
+#for WSL
+#alias pushc='pushd /mnt/c'
 alias pop='popd'
 alias hg="history | grep "
 alias update='sudo apt-get update && sudo apt-get upgrade'
@@ -46,7 +48,7 @@ up(){
   cd $d
 }
 
-#updates cd connad to also print working directory and list all contents immediatly after
+#updates cd command to also print working directory and list all contents immediatly after
 cd ()
 {
 	if [ -n "$1" ]; then
