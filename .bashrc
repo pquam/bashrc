@@ -1,3 +1,7 @@
+#after updating bashrc run
+#source ~/.bashrc
+#to ensure changes are applied
+
 #skip customization on non-interactive shells
 [ -z "$PS1" ] && return
 
