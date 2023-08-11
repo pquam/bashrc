@@ -3,7 +3,7 @@
 # for examples
 
 # Causes bash to append to history instead of overwriting it so if you start a new terminal, you have old session history
-shopt -s histappen
+shopt -s histappend
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
