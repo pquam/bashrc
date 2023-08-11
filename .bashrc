@@ -15,7 +15,7 @@ alias hg="history | grep "
 alias update='sudo apt-get update && sudo apt-get upgrade'
 alias python='python3'
 alias ac='git add *; git commit -m'
-#alias domain/ip='shh domain/ip'
+#alias domain/ip='ssh domain/ip'
 
 #use vim commands to navigate command history
 set -o vi
